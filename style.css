@@ -1,47 +1,49 @@
 body{
     font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#intro{
+.intro{
     display: flex;
-    
 }
 
+
+/*--------------Left Portion-------------*/
+.info-left{
+    width: 50%;
+    padding-left: 150px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
 .info-left h1{
     font-size: 50px;
 }
-
-.info-left{
-    width: 40%;
-    padding-left: 5%;
-    
+span{
+    color: rgb(184, 0, 92);
 }
+
 .info-left p{
-    text-align: justify;
     line-height: 30px;
-    
+}
+
+.info-left a{
+    text-decoration: none;
+    background-image: linear-gradient(#ec008c,#fc6767);
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+
+/*--------------Right Portion-------------*/
+.info-right{
+    width: 50%;
+   
 }
 
 .info-right img{
-    width:120%;
-    padding-left: 100px;
-   
-}
-.info-right{
-    width: 40%;
-
-}
-span{
-    color: rgb(235, 22, 128);
-}
-
-#hireme-button{
-    text-decoration: none;
-    background-image: linear-gradient(#B24592,#F15F79);
-    padding: 15px 35px;
-    color: white;
-    font-weight: 500;
-    border-radius: 10px;
-    
-
+    width: 90%;
 }
