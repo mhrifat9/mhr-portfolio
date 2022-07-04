@@ -103,6 +103,7 @@ span{
         text-align: justify;
         line-height: 30px;
         border-left: 5px solid #1352ff;
+        border-right: 5px solid #1352ff;
         margin-left: 10%;
         margin-right: 5%;
         padding: 10px 20px;
@@ -127,12 +128,16 @@ span{
         text-align: justify;
         line-height: 30px;
         border-left: 5px solid #1352ff;
+        border-right: 5px solid #1352ff;
         box-shadow: 3px 3px 30px black;
         
     }
 
     #final-section{
         display: flex;
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: center left;
     }
 
     #ftr{
