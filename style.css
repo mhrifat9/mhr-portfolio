@@ -1,0 +1,47 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+#intro{
+    display: flex;
+    
+}
+
+.info-left h1{
+    font-size: 50px;
+}
+
+.info-left{
+    width: 40%;
+    padding-left: 5%;
+    
+}
+.info-left p{
+    text-align: justify;
+    line-height: 30px;
+    
+}
+
+.info-right img{
+    width:120%;
+    padding-left: 100px;
+   
+}
+.info-right{
+    width: 40%;
+
+}
+span{
+    color: rgb(235, 22, 128);
+}
+
+#hireme-button{
+    text-decoration: none;
+    background-image: linear-gradient(#B24592,#F15F79);
+    padding: 15px 35px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    
+
+}
