@@ -91,3 +91,52 @@ span{
         background-position: right top;
 
     }
+    #exp1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 100px;
+        display: block;
+    }
+    #developer1{
+        width: 40%;
+        margin-top: 80px;
+        text-align: justify;
+        line-height: 30px;
+        border-left: 5px solid #1352ff;
+        margin-left: 10%;
+        margin-right: 5%;
+        padding: 10px 20px;
+        box-shadow: 3px 3px 30px black;
+        
+    }
+
+        #developer1 h1{
+            text-align: left;
+        }
+    
+        #developer2 h1{
+            text-align: left;
+        }
+    
+    #developer2{
+        width: 40%;
+        margin-right: 10%;
+        margin-left: 5%;
+        padding: 10px 20px;
+        margin-top: 80px;
+        text-align: justify;
+        line-height: 30px;
+        border-left: 5px solid #1352ff;
+        box-shadow: 3px 3px 30px black;
+        
+    }
+
+    #final-section{
+        display: flex;
+    }
+
+    #ftr{
+        text-align: center;
+        font-size: 16px;
+        color: #929191;
+    }
